@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="card text-center">
+  <div class="card-body">
+    <h1>Bienvenid@ a tu sistema de Votación</h1>
+    <p>Se comparte el código, totalmente gratis, desde ConfiguroWeb</p>
+    <a class="btn btn-dark" href="{% url 'polls:index' %}">
+        Ver votaciones disponibles</a
+      >
+  </div>
+  </div>
+{% endblock %}
